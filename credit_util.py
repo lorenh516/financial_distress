@@ -1,5 +1,5 @@
 import pandas as pd
-from ml_pipeline_lch import eval_ratios
+from ml_explore import eval_ratios
 
 
 def payment_grid(df, focus_cols, group_col):
@@ -11,6 +11,8 @@ def payment_grid(df, focus_cols, group_col):
         df_list.append(new_df)
     full_df = pd.concat(df_list, axis = 1)
     return full_df
+
+
 
 def standardized_comparison(df, primary_cols, group_cols, insert_col = None):
     df_list = []
