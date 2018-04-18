@@ -29,3 +29,9 @@ ml_modeling.p: machine learning pipeline functions for decision tree model
 tree.dot: visualization of decision tree model
 
 README.md: this file
+
+
+#### Repository requirements:
+```{python}
+pip install -r requirements.txt
+```
