@@ -1,7 +1,9 @@
-# Name: Loren Hinkson
+import pandas as pd
+import numpy as np
+
 
 # read in data
-def get_data(filename, headers = False, ind = None):
+def get_data(filename, headers = False, set_ind = None):
     '''
     Read in data from CSV to a pandas dataframe
 
@@ -35,9 +37,9 @@ def print_null_freq(df):
 
 
 def create_col_ref(df):
-	'''
-	Develop quick check of column position via dictionary
-	'''
+    '''
+    Develop quick check of column position via dictionary
+    '''
     col_list = df.columns
     col_dict = {}
     for list_position, col_name in enumerate(col_list):
