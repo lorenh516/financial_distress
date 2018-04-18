@@ -1,8 +1,17 @@
 # financial_distress
 Machine Learning Pipeline  + Exploration of Credit Data
 
+## Task Description:
 
-data: directory containing dataset CSV file and data dictionary Excel file
+Predict which people will experience financial distress in the next two years 
+based on 10 numeric variables, an identification number, and one categorical 
+geographic variable (zip code). The outcome variable (label) in the data is 
+SeriousDlqin2yrs.
+
+## Contents
+
+data: directory containing dataset CSV file containing (modified version of 
+data from https://www.kaggle.com/c/GiveMeSomeCredit) and .xls data dictionary
 
 credit_util.py: assignment-specific utility functions 
 
