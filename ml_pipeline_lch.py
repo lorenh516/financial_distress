@@ -517,9 +517,10 @@ def create_best_tree(accuracy_df, training_predictors, training_outcome):
     max_depth = accuracy_ranked.loc[accuracy_ranked.iloc[0].name, 'max_depth'],
     max_features = accuracy_ranked.loc[accuracy_ranked.iloc[0].name, 'max_features'], 
     min_samples_split = accuracy_ranked.loc[accuracy_ranked.iloc[0].name, 'min_samples_split'])
-    print('test')
+    
     dec_tree.fit(training_predictors, training_outcome)
-    return best_tree
+    
+    return dec_tree
     
 
 def feature_importance_ranking(best_tree, training_predictors):
@@ -554,4 +555,5 @@ def visualize_best_tree(best_tree, training_predictors):
     with open("tree.dot") as f:
         dot_graph = f.read()
         graph = graphviz.Source(dot_graph)
-    graph
+    
+    return graph
