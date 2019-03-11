@@ -87,7 +87,7 @@ lxml==4.1.0
 MarkupSafe==1.0
 matplotlib==2.1.0
 mccabe==0.6.1
-mistune==0.7.4
+mistune==0.8.1
 mpmath==0.19
 msgpack-python==0.4.8
 multipledispatch==0.4.9
@@ -142,7 +142,7 @@ python-dateutil==2.6.1
 python-dotenv==0.7.1
 pytz==2017.2
 PyWavelets==0.5.2
-PyYAML==3.12
+PyYAML==4.2b1
 pyzmq==16.0.2
 QtAwesome==0.4.4
 qtconsole==4.3.1
@@ -178,7 +178,7 @@ traitlets==4.3.2
 typing==3.6.2
 tzlocal==1.5.1
 unicodecsv==0.14.1
-urllib3==1.22
+urllib3==1.23
 virtualenv==15.2.0
 wcwidth==0.1.7
 webencodings==0.5.1
