@@ -4,9 +4,12 @@ Machine Learning Pipeline  + Exploration of Credit Data
 ## Task Description:
 
 Predict which people will experience financial distress in the next two years 
-based on 10 numeric variables, an identification number, and one categorical 
-geographic variable (zip code). The outcome variable (label) in the data is 
-SeriousDlqin2yrs.
+based on:
+* 10 numeric variables
+* an identification number
+* one categorical geographic variable (zip code). 
+
+The outcome variable (label) in the data is SeriousDlqin2yrs.
 
 ## Contents
 
@@ -27,8 +30,6 @@ ml_modeling.p: machine learning pipeline functions for decision tree model
 	building
 
 tree.dot: visualization of decision tree model
-
-README.md: this file
 
 
 #### Repository requirements:
