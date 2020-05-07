@@ -9,7 +9,7 @@ based on:
 * an identification number
 * one categorical geographic variable (zip code). 
 
-The outcome variable (label) in the data is SeriousDlqin2yrs.
+The outcome variable (label) in the data is `SeriousDlqin2yrs`.
 
 ## Contents
 
